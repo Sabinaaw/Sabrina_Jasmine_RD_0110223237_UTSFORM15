@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>UTS Praktikum</title>
+</head>
+<body>
+    <fieldset>
+        <legend> Form Registrasi Tempat Rekreasi Wisata </legend>
+            <form action="#" method="POST">
+                <table>
+                    <tr>
+                        <td> <label for="wisata"> Nama Tempat Wisata </label></td>
+                        <td> : </td>
+                        <td> <input type="text" name="wisata" placeholder="Masukan Tempat Wisata "></td>
+                    </tr>
+                    <tr>
+                        <td><label for="jenis"> Jenis Wisata </label></td>
+                        <td> : </td>
+                        <td><select>
+                            <option value="...">....</option>
+                            <option value="taman"> Taman </option>
+                            <option value="kebunbinatang"> Kebun Binatang </option>
+                            <option value="museum"> Museum </option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="desc"> Deskripsi Wisata </label></td>
+                        <td> : </td>
+                        <td><textarea rows="5" cols="90"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="cp"> Kontak Person : </label></td>
+                        <td> : </td>
+                        <td><input type="text" name="cp" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telp"> No. HP / Telp : </label></td>
+                        <td> : </td>
+                        <td><input type="text" name="telp" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email"> Email : </label></td>
+                        <td> : </td>
+                        <td><input type="email" name="email" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="web">Alamat Web :</label></td>
+                        <td> : </td>
+                        <td><input type="url" name="web" placeholder="http://"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="almt"> Alamat Lengkap : </label></td>
+                        <td> : </td>
+                        <td><textarea rows="4" cols="90"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lt"> Latitude </label></td>
+                        <td> : </td>
+                        <td><input type="text" id="lat"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ld"> Longitude </label></td>
+                        <td> : </td>
+                        <td><input type="text" id="lng"/></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Daftar" name="tombol"></td>
+                        <td><input type="reset" value="Batal" name="btn"></td>
+                    </tr>
+                </table>
+            </form>
+    </fieldset>
+    
+</body>
+</html>

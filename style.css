@@ -1,0 +1,11 @@
+table{
+        border: 0;
+        padding: 25px;
+    }
+    /* form{
+        padding: 25px;
+    } */
+fieldset{
+        background-color:lightcyan ;
+        margin: 10px 100px;
+    }
